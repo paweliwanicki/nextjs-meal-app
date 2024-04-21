@@ -12,7 +12,7 @@
 }
 
 .hero {
-  color: #ddd6cb;
+  color: var(--very-light-yellow);
   font-size: 1.5rem;
 }
 
@@ -22,7 +22,7 @@
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 0.15rem;
   text-transform: uppercase;
-  background: linear-gradient(90deg, #f9572a, #ffc905);
+  background: linear-gradient(90deg, var(--red-orange), var(--yellow));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -39,7 +39,7 @@
   margin-top: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
-  background: linear-gradient(90deg, #f9572a, #ff9b05);
+  background: linear-gradient(90deg, var(--red-orange), var(--orange));
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
@@ -47,26 +47,26 @@
 
 .cta a:hover,
 .cta a:active {
-  background: linear-gradient(90deg, #fd4715, #f9b241);
+  background: linear-gradient(90deg, var(--red-orange), var(--orange));
 }
 
 .cta a:first-child {
   background: transparent;
   font-weight: normal;
-  color: #ff9b05;
+  color: var(--orange);
   padding-left: 0;
 }
 
 .cta a:first-child:hover,
 .cta a:first-child:active {
   background: transparent;
-  color: #f9b241;
+  color: var(--orange);
 }
 
 .section {
   display: flex;
   flex-direction: column;
-  color: #ddd6cb;
+  color: var(--very-light-yellow);
   font-size: 1.5rem;
   max-width: 50rem;
   width: 90%;

@@ -1,15 +1,7 @@
-import Link from "next/link";
-import Image, { StaticImageData } from "next/image";
-import classes from "./meal-item.module.css";
-
-export type MealItemType = {
-  id: string | number;
-  title: string;
-  slug: string;
-  image: StaticImageData;
-  summary: string;
-  creator: string;
-};
+import Link from 'next/link';
+import Image from 'next/image';
+import classes from './meal-item.module.css';
+import { Meal } from '@/types/Meal';
 
 export default function MealItem({
   title,
@@ -17,7 +9,7 @@ export default function MealItem({
   image,
   summary,
   creator,
-}: MealItemType) {
+}: Meal) {
   return (
     <article className={classes.meal}>
       <header>

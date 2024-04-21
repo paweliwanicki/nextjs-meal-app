@@ -1,8 +1,9 @@
-import MealItem, { MealItemType } from "./meal-item";
-import classes from "./meals-grid.module.css";
+import { Meal } from '@/types/Meal';
+import MealItem from './meal-item';
+import classes from './meals-grid.module.css';
 
 type MealsGridProps = {
-  meals: MealItemType[];
+  meals: Meal[];
 };
 
 export default function MealsGrid({ meals }: MealsGridProps) {

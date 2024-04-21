@@ -3,7 +3,7 @@
   margin: 3rem auto 5rem auto;
   width: 90%;
   max-width: 75rem;
-  color: #ddd6cb;
+  color: var(--very-light-yellow);
   font-size: 1.5rem;
   text-align: center;
 }
@@ -13,7 +13,7 @@
 }
 
 .highlight {
-  background: linear-gradient(90deg, #f9572a, #ff8a05);
+  background: linear-gradient(90deg, var(--red-orange), var(--orange));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -30,7 +30,7 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   margin-bottom: 3rem;
-  color: #ddd6cb;
+  color: var(--very-light-yellow);
 }
 
 .perks {
@@ -57,5 +57,5 @@
   font-size: 1.5rem;
   font-weight: bold;
   margin: 0;
-  color: #ddd6cb;
+  color: var(--very-light-yellow);
 }
