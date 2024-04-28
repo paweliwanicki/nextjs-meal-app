@@ -1,5 +1,7 @@
 ### UDEMY course project (https://www.udemy.com/course/nextjs-react-the-complete-guide/)
 
+Fake meals fullstack app. The new 'App Router' approach is used here.
+
 \*Refactored by me to TS (js is used by default in the course)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
